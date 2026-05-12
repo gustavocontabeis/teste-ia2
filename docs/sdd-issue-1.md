@@ -4,48 +4,49 @@
 {
   "contexto": {
     "titulo": "[US] Calculadora simples em Java Swing",
-    "descricao": "Uma calculadora simples com interface gráfica para realizar operações matemáticas básicas."
+    "descricao": "Calculadora com interface gráfica para realizar operações matemáticas simples."
   },
   "requisitos_funcionais": [
     "Permitir somar, subtrair, multiplicar e dividir.",
     "Possuir botões numéricos de 0 a 9.",
     "Exibir o resultado em um campo de texto.",
-    "Tratar divisão por zero com mensagem de erro."
+    "Tratar divisão por zero com uma mensagem de erro."
   ],
-  "requisitos_nao_funcionais": [],
+  "requisitos_nao_funcionais": [
+    "A interface deve ser intuitiva e fácil de usar.",
+    "A calculadora deve ser responsiva e funcionar em diferentes tamanhos de tela."
+  ],
   "regras_negocio": [
-    {
-      "id": 1,
-      "descricao": "O usuário deve sempre receber um resultado válido, exceto em caso de divisão por zero."
-    },
-    {
-      "id": 2,
-      "descricao": "A interface deve ser intuitiva e fácil de usar."
-    }
+    "A soma, subtração, multiplicação e divisão devem ser calculadas corretamente.",
+    "Se o usuário tentar dividir por zero, uma mensagem de erro apropriada deve ser apresentada."
   ],
   "casos_uso": [
     {
-      "id": 1,
-      "titulo": "Realizar operação matemática",
-      "atores": [
-        "Usuário"
-      ],
-      "descricao": "O usuário seleciona números e uma operação, e recebe o resultado."
+      "nome": "Calcular Soma",
+      "descricao": "Usuário insere dois números e clica no botão de soma.",
+      "fluxo": "1. Usuário insere o primeiro número. 2. Usuário insere o segundo número. 3. Usuário clica em 'Soma'. 4. Resultado é exibido."
     },
     {
-      "id": 2,
-      "titulo": "Tratar erro de divisão por zero",
-      "atores": [
-        "Usuário"
-      ],
-      "descricao": "Quando o usuário tenta dividir um número por zero, uma mensagem de erro é exibida."
+      "nome": "Calcular Subtração",
+      "descricao": "Usuário insere dois números e clica no botão de subtração.",
+      "fluxo": "1. Usuário insere o primeiro número. 2. Usuário insere o segundo número. 3. Usuário clica em 'Subtração'. 4. Resultado é exibido."
+    },
+    {
+      "nome": "Calcular Multiplicação",
+      "descricao": "Usuário insere dois números e clica no botão de multiplicação.",
+      "fluxo": "1. Usuário insere o primeiro número. 2. Usuário insere o segundo número. 3. Usuário clica em 'Multiplicação'. 4. Resultado é exibido."
+    },
+    {
+      "nome": "Calcular Divisão",
+      "descricao": "Usuário insere dois números e clica no botão de divisão.",
+      "fluxo": "1. Usuário insere o primeiro número. 2. Usuário insere o segundo número. 3. Usuário clica em 'Divisão'. 4. Resultado é exibido ou mensagem de erro se divisor for zero."
     }
   ],
   "criterios_aceite": [
-    "A calculadora deve permitir somar, subtrair, multiplicar e dividir.",
-    "Devem existir botões para cada número de 0 a 9.",
-    "O resultado deve ser mostrado em um campo de texto.",
-    "Uma mensagem de erro deve aparecer quando o usuário tentar dividir por zero."
+    "A calculadora deve somar, subtrair, multiplicar e dividir corretamente.",
+    "Os botões numéricos devem estar disponíveis e funcionais.",
+    "O resultado deve ser visível em um campo de texto dedicado.",
+    "Uma mensagem de erro deve ser mostrada ao tentar dividir por zero."
   ]
 }
 ```
