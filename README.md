@@ -1,12 +1,16 @@
-# Cadastro de Gato
+# Cadastro de Peixe
 
 ## Descrição
-Este projeto é um sistema simples para cadastro de gatos, permitindo que os usuários possam manter o controle e registro dos gatos.
+Este projeto é um aplicativo Java Swing para cadastro de peixes.
+
+## Requisitos
+- Java 8+
+- Biblioteca Swing
 
 ## Execução
-Para executar o projeto:
-1. Certifique-se de ter o Maven instalado.
-2. Clone o repositório.
-3. Navegue até o diretório do projeto.
-4. Execute o comando `mvn clean install` para compilar o projeto.
-5. Execute o `Main.java` para iniciar o sistema.
+1. Compile o projeto.
+2. Execute a classe `Main` para abrir a interface de cadastro.
+
+## Funcionalidades
+- Cadastro de peixe com validação dos campos.
+- Limpeza dos campos após cadastro ou cancelamento.
