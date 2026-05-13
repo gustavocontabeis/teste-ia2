@@ -1,10 +1,12 @@
-# Sistema de Cadastro de Cachorro
+# Cadastro de Gato
 
 ## Descrição
-Este sistema permite o cadastro de cachorros com informações como nome, data de nascimento e tipo de raça.
+Este projeto é um sistema simples para cadastro de gatos, permitindo que os usuários possam manter o controle e registro dos gatos.
 
 ## Execução
-Para executar, compile todos os arquivos Java e rode a classe `Main`. O sistema apresenta um formulário para o cadastro dos cachorros.
-
-## Dependências
-Não há dependências externas além do JDK.
+Para executar o projeto:
+1. Certifique-se de ter o Maven instalado.
+2. Clone o repositório.
+3. Navegue até o diretório do projeto.
+4. Execute o comando `mvn clean install` para compilar o projeto.
+5. Execute o `Main.java` para iniciar o sistema.
