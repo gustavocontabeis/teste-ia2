@@ -1,12 +1,14 @@
-# Cadastro de Cachorro
+# Cadastro de Gato
 
 ## Descrição
-Funcionalidade para cadastro de cães com nome, data de nascimento e tipo de raça.
+Aplicação para cadastro de gatos com controle de dados básicos.
 
-## Como Executar
-1. Compile o projeto com `javac`.
-2. Execute a classe `App`.
+## Execução
+1. Compile a aplicação usando `javac`.
+2. Execute o programa usando `java Main`.
+3. Preencha os dados do gato e clique em 'Salvar'.
+4. Mensagens de sucesso ou erro aparecerão conforme o cadastro.
 
-## Dependências
-- Java 8 ou superior.
-- Swing para interface gráfica.
+## Requisitos
+- Java JDK
+- Biblioteca Swing
