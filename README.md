@@ -1,14 +1,15 @@
-# Cadastro de Gato
+# Cadastro de Peixe
 
 ## Descrição
-Aplicação para cadastro de gatos com controle de dados básicos.
+Este sistema permite o cadastro de peixes com informações básicas.
 
 ## Execução
-1. Compile a aplicação usando `javac`.
-2. Execute o programa usando `java Main`.
-3. Preencha os dados do gato e clique em 'Salvar'.
-4. Mensagens de sucesso ou erro aparecerão conforme o cadastro.
+Para executar o sistema, use o comando:
+```bash
+javac -d bin src/main/java/com/example/cadastro/*.java
+java -cp bin com.example.cadastro.Main
+```
 
 ## Requisitos
-- Java JDK
-- Biblioteca Swing
+- JDK 11 ou superior
+- Biblioteca Swing para construção da interface gráfica
