@@ -4,17 +4,18 @@ import javax.swing.*;
 
 public class Main {
     public static void main(String[] args) {
-        JFrame frame = new JFrame("Sistema de Cadastro de Gato");
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(600, 400);
+        SwingUtilities.invokeLater(() -> {
+            JFrame frame = new JFrame("Sistema de Cadastro de Peixes");
+            frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            frame.setSize(600, 400);
 
-        JDesktopPane desktopPane = new JDesktopPane();
-        frame.setContentPane(desktopPane);
+            JDesktopPane desktop = new JDesktopPane();
+            frame.setContentPane(desktop);
 
-        CadastroGato cadastroGato = new CadastroGato();
-        desktopPane.add(cadastroGato);
-        cadastroGato.setVisible(true);
+            CadastroPeixe cadastroPeixe = new CadastroPeixe();
+            desktop.add(cadastroPeixe);
 
-        frame.setVisible(true);
+            frame.setVisible(true);
+        });
     }
 }
